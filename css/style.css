@@ -1,0 +1,19 @@
+.table {
+  width: 900px;
+  margin: 0 auto;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+table tr:nth-child(even) { background: #eee; }
+table thead tr th {
+  width: 20%;
+  background: #aaa;
+}
+table td,th {
+  text-align: center;
+}
+table tbody tr > td {
+  width: 20px;
+}
